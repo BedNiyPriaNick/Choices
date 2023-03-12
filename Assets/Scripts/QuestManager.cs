@@ -14,7 +14,7 @@ public class QuestManager : MonoBehaviour
 		{
 			case "TestQuest":
 				// здесь имеет смысл использовать условие и запрос из сохранения, чтобы проверить завершен квест или нет, если да то, передать значение: -1
-				j = TestQuest.questValue;
+				//j = TestQuest.questValue;
 				break;
 		}
 
@@ -26,7 +26,7 @@ public class QuestManager : MonoBehaviour
 		switch (questName)
 		{
 			case "TestQuest":
-				TestQuest.Internal.QuestStatus(status);
+				//TestQuest.Internal.QuestStatus(status);
 				break;
 		}
 	}
