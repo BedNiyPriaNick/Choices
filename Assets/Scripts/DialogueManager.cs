@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
 
 	public ScrollRect scrollRect;
 	public ButtonComponent[] buttonText; // первый элемент списка, всегда будет использоваться для вывода текста NPC, остальные элементы для ответов, соответственно, общее их количество должно быть достаточным
-	public string folder = "Russian"; // подпапка
+	public string folder = "Russian"; // подпапка в Resources, для чтения
 	public int offset = 20;
 
 	private string fileName, lastName;
